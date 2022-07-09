@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+	<suite name="Tests">
+		<test name="SmokeTests">
+			<classes>
+				<class name="Tests.PA1">
+					<methods>
+						<include name="PA1PS1"/>
+						<include name="PA1AS2"/>
+					</methods>
+				</class>
+				<class name="Tests.PA3">
+				</class>
+			</classes>
+		</test>
+		<test name="RegressionTests">
+			<classes>
+				<class name="Tests.PA1"></class>
+				<class name="Tests.PA2"></class>
+				<class name="Tests.PA3"></class>
+				<class name="Tests.PA4"></class>
+				<class name="Tests.PA5"></class>
+			</classes>
+		</test>
+	</suite>
